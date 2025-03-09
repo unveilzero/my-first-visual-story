@@ -17,4 +17,8 @@
 Above content
 {% block content %}
 <p>Hello NICAR 2025</p>
+{% for obj in harvard_park_homicides %}
+  {{ obj.first_name }} {{ obj.last_name }}<br>
+{% endfor %}
+
 {% endblock content %}
