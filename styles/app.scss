@@ -1,6 +1,7 @@
 // RESET
 // Smooths out the rough edges across browsers
 @use './tools/normalize';
+@use 'node_modules/leaflet/dist/leaflet';
 
 // VARIABLES
 // Reusable settings
@@ -10,7 +11,7 @@
 // YOUR CODE
 // Starting writing your stuff below here
 .container {
-  max-width: 630px;
+  max-width: 630px !important;
   margin: 30px auto;
   line-height: 1.4;
   @media (max-width: 767px) {

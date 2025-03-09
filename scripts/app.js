@@ -1,2 +1,2 @@
 // Write your code!
-console.log("Hello bakers");
+// Import dependencies
